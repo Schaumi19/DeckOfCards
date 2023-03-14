@@ -5,7 +5,7 @@ const assets = [
     "/",
     "/index.html",
     "/deck-of-cards.js"
-   
+
 ].map(url => currentPath + url)
 
 self.addEventListener("install", installEvent => {
@@ -23,3 +23,6 @@ self.addEventListener("fetch", fetchEvent => {
         })
     )
 })
+
+
+

@@ -4,6 +4,10 @@ const cards = [  "2 of Hearts",  "3 of Hearts",  "4 of Hearts",  "5 of Hearts", 
 let exercises = {};
 let shuffledCards = [];
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+};
+
 // Funktion zum Mischen der Karten
 function shuffleCards(cards) {
   for (let i = cards.length - 1; i > 0; i--) {
