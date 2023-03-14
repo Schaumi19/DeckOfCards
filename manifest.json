@@ -1,0 +1,46 @@
+{
+    "short_name": "Deck of Cards",
+    "name": "Deck of Cards - A Progressive Web App",
+    "icons": [
+        {
+            "src": "a31dk-4gjx4-001.ico",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "a31dk-4gjx4-001.ico",
+            "type": "image/png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "a31dk-4gjx4-001.ico",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "a31dk-4gjx4-001.ico",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "a31dk-4gjx4-001.ico",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "a31dk-4gjx4-001.ico",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "a31dk-4gjx4-001.ico",
+            "type": "image/png",
+            "sizes": "256x256"
+        }
+
+    ],
+    "start_url": "index.html",
+    "background_color": "",
+    "Theme_color": "",
+    "display": "standalone"
+}

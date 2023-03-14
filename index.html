@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Deck of Cards Workout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <style>
+        #cardContainer {
+            display: none;
+            font-size: 40px;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .card {
+            display: inline-block;
+            border: 1px solid black;
+            width: 200px;
+            height: 300px;
+            margin-right: 20px;
+            padding: 20px;
+        }
+
+        #nextButton {
+            display: none;
+            font-size: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Deck of Cards Workout</h1>
+
+    <form>
+        <label for="hearts">Hearts:</label>
+        <input type="text" id="hearts" name="hearts" value="Push-ups"><br><br>
+
+        <label for="diamonds">Diamonds:</label>
+        <input type="text" id="diamonds" name="diamonds" value="Squats"><br><br>
+
+        <label for="spades">Spades:</label>
+        <input type="text" id="spades" name="spades" value="Sit-ups"><br><br>
+
+        <label for="clubs">Clubs:</label>
+        <input type="text" id="clubs" name="clubs" value="Burpees"><br><br>
+
+        <button type="button" id="startButton" onclick="startWorkout()">Start Workout</button>
+    </form>
+
+    <div id="cardContainer"></div>
+    <button style="float: inline-start;" type="button" id="nextButton">Next Card</button>
+
+    <script src="deck-of-cards.js"></script>
+</body>
+
+</html>
