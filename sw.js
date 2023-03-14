@@ -1,5 +1,3 @@
-
-
 let currentPath = self.location.href.replace("/sw.js", "");
 
 const cacheName = "Deck-of-Cards"

@@ -1,6 +1,7 @@
 {
     "short_name": "Deck of Cards",
     "name": "Deck of Cards - A Progressive Web App",
+    "prefer_related_applications": true,
     "icons": [
         {
             "src": "a31dk-4gjx4-001.ico",
